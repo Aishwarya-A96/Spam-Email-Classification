@@ -8,7 +8,7 @@ I used CountVectorizer to text column and converted the words to zeros and ones
 I fitted the model using Naive Bayes classifier
 I gave sample text to test whether it classifies correctly as spam or ham and it classified correct
 I splitted the dataset into trainset and testset and fitted the model
-xtrain shape:4296*37303
+xtrain shape:4296**37303
 ytrain shape:4296
 xtest shape:1432*37303
 ytest shape:1432
