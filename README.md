@@ -1,14 +1,14 @@
-Spam-Email-Classification using Naive Bayes classification
-This dataset contains subject of emails and a classification label whether the email is a spam or ham
+# Spam-Email-Classification using Naive Bayes classification
+This dataset contains subject of emails and a classification label whether the email is a spam or ham.
 Spam is represented as 1 and good email also known as ham is represented as 0
 Dataset shape: 5728*2
 Spam Email Percentage was found to be 23.88%
 Ham Email Percentage was found to be 76.12%
-I used CountVectorizer to text column and converted the words to zeros and ones
-I fitted the model using Naive Bayes classifier
-I gave sample text to test whether it classifies correctly as spam or ham and it classified correct
-I splitted the dataset into trainset and testset and fitted the model
-xtrain shape:4296 rows and 37303 columns 
+I used CountVectorizer to text column and converted the words to zeros and ones.
+I fitted the model using Naive Bayes classifier.
+I gave sample text to test whether it classifies correctly as spam or ham and it classified correct.
+I splitted the dataset into trainset and testset and fitted the model.
+xtrain shape:4296 rows and 37303 columns .
 ytrain shape:4296
 xtest shape:1432*37303
 ytest shape:1432
