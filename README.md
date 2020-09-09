@@ -10,7 +10,7 @@ I gave sample text to test whether it classifies correctly as spam or ham and it
 I splitted the dataset into trainset and testset and fitted the model.
 xtrain shape:4296 rows and 37303 columns .
 ytrain shape:4296
-xtest shape:1432*37303
+xtest shape:1432 rows and 37303 columns
 ytest shape:1432
 Among 4296 xtrain samples 15 were were predicted as ham but they are actually spam and 1 was predicted spam but they are actually ham and accuracy was found to be 99.62%
 Among 1432 xtest samples 7 were predicted as ham but they were actually spam and 5 were predicted as spam but they were actually ham and accuracy was found to be 99.16%
